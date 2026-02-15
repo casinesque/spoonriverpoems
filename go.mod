@@ -1,4 +1,4 @@
-module github.com/casinesque.me/spoonriverpoems.com
+module github.com/casinesque.me/spoonriverpoems
 
 go 1.25.7
 
