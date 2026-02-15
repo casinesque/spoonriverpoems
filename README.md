@@ -2,7 +2,7 @@
 
 Minimal, responsive poetry website featuring Edgar Lee Masters' *Spoon River Anthology*.
 
-Project's endpoint is [spoonriverpoems.com](spoonriverpoems.com)
+Project's endpoint is [https://spoonriverpoems.pages.dev/](https://spoonriverpoems.pages.dev/)
 
 ## Setup
 
