@@ -1,0 +1,10 @@
+.vscode
+.hugo_build.lock
+resources
+/public/
+/resources/
+/public/
+public
+/node_modules/
+/*.log
+hugo_stats.json

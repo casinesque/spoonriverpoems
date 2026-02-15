@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main id="poem-container">
+  <h1 id="poem-title"></h1>
+  <pre id="poem-text"></pre>
+</main>
+
+<script>
+  fetch('/data/poems.json')
+    .then(r => r.json())
+    .then(data => {
+      const keys = Object.keys(data);
+      const slug = keys[Math.floor(Math.random() * keys.length)];
+      const poem = data[slug];
+      document.getElementById('poem-title').innerText = poem.title;
+      document.getElementById('poem-text').innerText = poem.text;
+    });
+</script>
+{{ end }}

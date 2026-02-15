@@ -1,0 +1,200 @@
+/* Full dark mode for Spoon River Anthology site - Night Gradient */
+
+/* Gradient on the whole page */
+html, body.theme-base-blue {
+    height: 100%;
+    background: linear-gradient(180deg, #000000 0%, #001a4d 50%, #002d6b 100%);
+    background-attachment: fixed;
+    color: #f0f0f0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Main theme containers set transparent to allow gradient to show */
+.wrap, .container, main, header, footer, .sidebar {
+    background: transparent !important;
+}
+
+/* Links */
+a, a:visited { 
+    color: #82aaff !important; 
+    text-decoration: underline; 
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 { 
+    color: #ffffff !important; 
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Sidebar */
+.sidebar, .sidebar-item, .sidebar-nav a { 
+    background: none !important; 
+    color: #f0f0f0 !important; 
+}
+
+/* Sidebar toggle */
+.sidebar-toggle { 
+    background: #444 !important; 
+    color: #f0f0f0 !important; 
+}
+
+/* Inputs / textarea */
+input, textarea { 
+    background: #222 !important; 
+    color: #f0f0f0 !important; 
+    border: 1px solid #555 !important; 
+}
+
+/* Poem preformatted text */
+pre, code { 
+    background: none !important; 
+    color: #f0f0f0 !important; 
+    font-family: 'EB Garamond', serif !important;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Sidebar nav hover */
+.sidebar-nav a:hover { 
+    color: #a0cfff !important; 
+}
+
+/* Top link icon */
+.top-of-site-link svg path { 
+    fill: #f0f0f0 !important; 
+}
+
+/* Misc text */
+p, li { 
+    color: #f0f0f0 !important; 
+}
+
+/* Poem container */
+#poem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Poem title */
+#poem-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #f0f0f0;
+}
+
+/* Poem text */
+#poem-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #f0f0f0;
+}
+
+/* About page container */
+.page-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+
+/* About page titles */
+.page-body h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #f0f0f0;
+}
+
+/* Paragraphs */
+.page-body p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Subtitles (h2, h3) */
+.page-body h2,
+.page-body h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #f0f0f0;
+}
+
+/* Hide byline */
+.page .byline {
+    display: none;
+}
+
+/* Sidebar fonts */
+.sidebar, 
+.sidebar-nav-item {
+    font-family: inherit;
+    font-weight: normal;
+    text-transform: none;
+}
+
+/* Sidebar font size */
+.sidebar-nav-item {
+    font-size: 1.2rem;
+    font-family: inherit;
+    font-weight: normal;
+}
+
+/* Sidebar hover/active color */
+.sidebar-nav-item:hover,
+.sidebar-nav-item.active {
+    font-size: 1.2rem;
+    color: #0055aa;
+}
+
+/* Internal page titles */
+.text-title {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+/* Masthead titles */
+.masthead-title,
+.masthead-title a{
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.masthead-title small {
+    color: currentColor !important;
+    opacity: 1 !important;
+}
+
+.masthead-title {
+    color: inherit !important;
+}
