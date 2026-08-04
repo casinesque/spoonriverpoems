@@ -1,4 +1,4 @@
-# Spoon River Anthology
+# Spoon River Anthology 
 
 Minimal, responsive poetry website featuring Edgar Lee Masters' *Spoon River Anthology*.
 
